@@ -44,8 +44,9 @@ h1{
 }
 /* title image */
 .title-image{
-    width: 60%;
+    width: 40%;
     transform: rotate(20deg);
+   margin-left: 200px;
 }
 #features{
     padding: 7% 15%;
