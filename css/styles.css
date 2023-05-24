@@ -13,7 +13,7 @@ h1{
     color: #fff;
 }
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 .navbar-brand{
     font-size: 35px;
@@ -44,12 +44,18 @@ h1{
 }
 /* title image */
 .title-image{
-    width: 40%;
+    width: 20%;
     transform: rotate(20deg);
    margin-left: 200px;
+  
+   position: absolute;
+  
 }
 #features{
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+  
 }
 .feature-box{
     text-align: center;
@@ -119,4 +125,18 @@ h2{
     padding-bottom: 20px;
 }
 
- 
+ @media (max-width: 990px) {
+    .title-image{
+        width: 60%;
+        
+       margin-left: 20px;
+      transform: rotate(0);
+       position: static;
+      
+    }
+    #title{
+        background-color: #ff4c68;
+        color: #fff;
+        text-align: center;
+    }
+ }
