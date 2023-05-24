@@ -90,9 +90,10 @@ h2{
 #press{
     background-color: #e78796;
     text-align: center;
-    padding-bottom: 3%;
+    padding-bottom: 5%;
 }
 .press-logo{
+    
     width: 10%;
     margin: 20px 15px;
 }
@@ -117,3 +118,5 @@ h2{
     text-align: center;
     padding-bottom: 20px;
 }
+
+ 
